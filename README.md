@@ -11,3 +11,6 @@ A simple Columns-style Tetris game built with **Pygame**.
 - **S**: Fast Drop
 - **Space**: Swap colors within the block
 - **R**: Restart game
+
+## How to modifie
+there is so indications in the main file
