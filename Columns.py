@@ -10,19 +10,21 @@ GAMEOVER_FONT = pygame.font.SysFont('Arial', 45, bold=True)
 global_score = 0
 game_over = False
 pygame.init()
-screen = pygame.display.set_mode((480, 720))
+screen = pygame.display.set_mode((480, 720)) # modifie scrren resolution
 clock = pygame.time.Clock()
 running = True
 
-# Colors (R, G, B, Alpha)
+# Colors (R, G, B, Alpha), add color here
 WHITE = (255, 255, 255, 1)
 GREEN = (0, 128, 0, 1)
 RED = (255, 0, 0, 1)
 BLUE = (0, 0, 255, 1)
 YELLOW = (255, 255, 0, 1)
 VOID = (0, 0, 0, 1)
+COLORS = [WHITE, GREEN, RED, BLUE, YELLOW ] # you should add colors also in this array
+
 TILE_SIZE = 30
-COLORS = [WHITE, GREEN, RED, BLUE, YELLOW]
+
 
 
 ## Creation Functions
@@ -206,7 +208,7 @@ def calculate_score(grid):
 
 
 # Main Game Loop
-grid = create_grid(12, 19)
+grid = create_grid(12, 19) # pick the value you want
 current_total_score = 0
 
 while running:
