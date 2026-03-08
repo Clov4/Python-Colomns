@@ -13,4 +13,4 @@ A simple Columns-style Tetris game built with **Pygame**.
 - **R**: Restart game
 
 ## How to modifie
-there is so indications in the main file
+there is some indications in the main file
