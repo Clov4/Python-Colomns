@@ -1,2 +1,13 @@
-# Python-Colomns
-A classic Columns-style Tetris game built in Python using Pygame, featuring color-matching mechanics and diagonal alignments.
+# Python Tetris Clone
+A simple Columns-style Tetris game built with **Pygame**.
+
+## Features
+- Vertical blocks of 1 to 3 random colors.
+- Alignment detection (horizontal, vertical, diagonal).
+- Increasing difficulty (coming soon).
+
+## How to play
+- **A / D**: Move Left / Right
+- **S**: Fast Drop
+- **Space**: Swap colors within the block
+- **R**: Restart game
